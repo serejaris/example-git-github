@@ -10,7 +10,7 @@
 | 2 | Повестка | Секретарь совета | `#slide-02` | `template-list` | готово | Мария | Нова |
 | 3 | Продукт | Продакт-менеджер | `#slide-03` | `template-statement` | готово | Светлана | Codex |
 | 4 | Цена | Ценовик | `#slide-04` | `template-statement` | готово | Анна | Codex |
-| 5 | Фишка продукта | Инженер | `#slide-05` | `template-statement` | свободна | — | — |
+| 5 | Фишка продукта | Инженер | `#slide-05` | `template-statement` | готово | jdiner | Codex |
 | 6 | Старт | Координатор запуска | `#slide-06` | `template-statement` | свободна | — | — |
 | 7 | Главная цифра | Аналитик продаж | `#slide-07` | `template-statement` | готово | Александр | Codex |
 | 8 | План | Плановик | `#slide-08` | `template-statement` | свободна | — | — |
