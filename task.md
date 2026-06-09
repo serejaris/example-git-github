@@ -24,7 +24,7 @@
 | 16 | Бюджет рекламы | Бухгалтер | `#slide-16` | `template-statement` | готово | Мария | Нова |
 | 17 | Эффект рекламы | Маркетолог | `#slide-17` | `template-statement` | свободна | — | — |
 | 18 | Конкурент: удар | Аналитик рынка | `#slide-18` | `template-statement` | готово | Наталья | Codex |
-| 19 | Конкурент: цена | Стратег | `#slide-19` | `template-statement` | свободна | — | — |
+| 19 | Конкурент: цена | Стратег | `#slide-19` | `template-statement` | готово | Светлана | Codex |
 | 20 | Поддержка | Оператор колл-центра | `#slide-20` | `template-statement` | готово | Светлана | Codex |
 | 21 | Сводка для CEO | Ассистент CEO | `#slide-21` | `template-metrics` | готово | Михаил | CyberOS |
 | 22 | Решение A | Инноватор | `#slide-22` | `template-statement` | готово | Александр Свинарев | Codex |
