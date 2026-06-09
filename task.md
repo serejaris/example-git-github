@@ -27,7 +27,7 @@
 | 19 | Конкурент: цена | Стратег | `#slide-19` | `template-statement` | свободна | — | — |
 | 20 | Поддержка | Оператор колл-центра | `#slide-20` | `template-statement` | свободна | — | — |
 | 21 | Сводка для CEO | Ассистент CEO | `#slide-21` | `template-metrics` | готово | Михаил | CyberOS |
-| 22 | Решение A | Инноватор | `#slide-22` | `template-statement` | свободна | — | — |
+| 22 | Решение A | Инноватор | `#slide-22` | `template-statement` | готово | Александр Свинарев | Codex |
 | 23 | Решение B | Финансист | `#slide-23` | `template-statement` | свободна | — | — |
 | 24 | Итог | Руководитель проекта | `#slide-24` | `template-statement` | готово | Олеся | Codex |
 
