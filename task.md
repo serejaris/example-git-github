@@ -29,7 +29,7 @@
 | 21 | Сводка для CEO | Ассистент CEO | `#slide-21` | `template-metrics` | готово | Михаил | CyberOS |
 | 22 | Решение A | Инноватор | `#slide-22` | `template-statement` | свободна | — | — |
 | 23 | Решение B | Финансист | `#slide-23` | `template-statement` | свободна | — | — |
-| 24 | Итог | Руководитель проекта | `#slide-24` | `template-statement` | свободна | — | — |
+| 24 | Итог | Руководитель проекта | `#slide-24` | `template-statement` | готово | Олеся | Codex |
 
 ---
 
