@@ -8,92 +8,274 @@
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased">
 
-  <!-- 1. Обложка -->
-  <section class="min-h-screen flex flex-col items-center justify-center px-8 text-center">
-    <p class="text-sm uppercase tracking-[0.3em] text-lime-400 mb-6">Квартальный отчёт · Q1 2026</p>
-    <h1 class="text-6xl md:text-8xl font-bold tracking-tight mb-6">Груша 19</h1>
-    <p class="text-2xl md:text-3xl text-slate-300 max-w-2xl">Запуск нового телефона компании «Груша»</p>
-    <p class="mt-12 text-slate-500">Учебный пример · выдуманные данные</p>
-  </section>
+  <header class="sticky top-0 z-10 bg-slate-950/90 backdrop-blur border-b border-slate-800 px-6 py-4 flex items-center justify-between">
+    <p class="text-lg font-semibold">Груша 19 · Q1 2026</p>
+    <p class="text-sm text-slate-400">24 слайда · по одному на человека</p>
+  </header>
 
-  <!-- 2. Главные цифры -->
-  <section class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto">
-    <h2 class="text-4xl md:text-5xl font-bold mb-16">Главные цифры</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10 text-center">
-        <p class="text-5xl md:text-6xl font-bold text-lime-400">12 400</p>
-        <p class="mt-4 text-xl text-slate-400">продано за месяц</p>
-        <p class="mt-2 text-slate-500">план: 15 000</p>
-      </div>
-      <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10 text-center">
-        <p class="text-5xl md:text-6xl font-bold text-lime-400">49 990 ₽</p>
-        <p class="mt-4 text-xl text-slate-400">цена Груша 19</p>
-        <p class="mt-2 text-slate-500">128 ГБ</p>
-      </div>
-      <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10 text-center">
-        <p class="text-5xl md:text-6xl font-bold text-lime-400">15 марта</p>
-        <p class="mt-4 text-xl text-slate-400">старт продаж</p>
-        <p class="mt-2 text-slate-500">2026</p>
-      </div>
+  <!-- Слайды 1–24: пустые слоты -->
+  <section id="slide-01" data-slide="1" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 1 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
     </div>
   </section>
 
-  <!-- 3–4. Получилось / Проблемы -->
-  <section class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto">
-    <h2 class="text-4xl md:text-5xl font-bold mb-16">Итоги запуска</h2>
-    <div class="grid md:grid-cols-2 gap-8">
-      <div class="rounded-3xl bg-emerald-950 border border-emerald-800 p-10">
-        <h3 class="text-2xl font-bold text-emerald-400 mb-8">Что получилось</h3>
-        <ul class="space-y-6 text-xl text-slate-200">
-          <li>Камеру хвалят в <span class="font-bold text-emerald-300">71%</span> отзывов</li>
-          <li>Запуск прошёл в срок</li>
-          <li>Реклама дала <span class="font-bold text-emerald-300">920 000</span> переходов на сайт</li>
-        </ul>
-      </div>
-      <div class="rounded-3xl bg-rose-950 border border-rose-800 p-10">
-        <h3 class="text-2xl font-bold text-rose-400 mb-8">Что не получилось</h3>
-        <ul class="space-y-6 text-xl text-slate-200">
-          <li>До плана продаж не дотянули</li>
-          <li><span class="font-bold text-rose-300">38%</span> жалуются: «мало памяти»</li>
-          <li>Конкурент <span class="font-bold text-rose-300">Слив 20</span> вышел раньше и дешевле на 5 000 ₽</li>
-        </ul>
-      </div>
+  <section id="slide-02" data-slide="2" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 2 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
     </div>
   </section>
 
-  <!-- 5–7. Склад · Реклама · Поддержка -->
-  <section class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto">
-    <h2 class="text-4xl md:text-5xl font-bold mb-16">Операционка</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10">
-        <h3 class="text-xl font-bold text-lime-400 mb-4">Склад</h3>
-        <p class="text-4xl font-bold">3 200</p>
-        <p class="mt-2 text-slate-400">телефонов осталось</p>
-      </div>
-      <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10">
-        <h3 class="text-xl font-bold text-lime-400 mb-4">Реклама</h3>
-        <p class="text-4xl font-bold">8 млн ₽</p>
-        <p class="mt-2 text-slate-400">бюджет кампании</p>
-      </div>
-      <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10">
-        <h3 class="text-xl font-bold text-lime-400 mb-4">Поддержка</h3>
-        <p class="text-4xl font-bold">×2</p>
-        <p class="mt-2 text-slate-400">звонков в первую неделю</p>
-      </div>
+  <section id="slide-03" data-slide="3" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 3 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
     </div>
   </section>
 
-  <!-- 8. Решение -->
-  <section class="min-h-screen flex flex-col items-center justify-center px-8 py-20 text-center">
-    <h2 class="text-4xl md:text-5xl font-bold mb-12 max-w-4xl">Вопрос руководству</h2>
-    <p class="text-2xl md:text-4xl text-slate-200 max-w-3xl leading-relaxed">
-      Делать <span class="text-lime-400 font-bold">Груша 19 Pro</span> с 256 ГБ
-      или <span class="text-lime-400 font-bold">снижать цену</span> на обычную 19?
-    </p>
-    <p class="mt-16 text-xl text-slate-500 max-w-2xl">
-      Вывод: запуск нормальный, но до плана не дотянули. Камера — плюс, память — минус.
-    </p>
+  <section id="slide-04" data-slide="4" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 4 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
   </section>
+
+  <section id="slide-05" data-slide="5" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 5 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-06" data-slide="6" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 6 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-07" data-slide="7" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 7 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-08" data-slide="8" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 8 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-09" data-slide="9" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 9 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-10" data-slide="10" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 10 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-11" data-slide="11" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 11 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-12" data-slide="12" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 12 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-13" data-slide="13" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 13 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-14" data-slide="14" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 14 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-15" data-slide="15" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 15 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-16" data-slide="16" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 16 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-17" data-slide="17" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 17 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-18" data-slide="18" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 18 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-19" data-slide="19" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 19 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-20" data-slide="20" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 20 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-21" data-slide="21" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 21 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-22" data-slide="22" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 22 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-23" data-slide="23" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 23 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <section id="slide-24" data-slide="24" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+    <p class="text-sm uppercase tracking-widest text-slate-500 mb-6">Слайд 24 · свободен</p>
+    <div class="flex items-center justify-center rounded-3xl border-2 border-dashed border-slate-700 min-h-[65vh] p-12">
+      <p class="text-3xl text-slate-600 text-center">Пустой слайд</p>
+    </div>
+  </section>
+
+  <!-- Справочник шаблонов (образцы вёрстки) -->
+  <div id="templates" class="border-t-4 border-lime-500">
+    <section class="px-8 py-16 max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Шаблоны слайдов</h2>
+      <p class="text-xl text-slate-400">Готовые варианты вёрстки. Агент копирует подходящий шаблон в выбранный пустой слайд.</p>
+    </section>
+
+    <section id="template-cover" data-template="cover" class="min-h-screen flex flex-col items-center justify-center px-8 text-center border-t border-slate-800">
+      <p class="text-xs uppercase tracking-widest text-lime-400 mb-8">Шаблон: обложка</p>
+      <p class="text-sm uppercase tracking-[0.3em] text-lime-400 mb-6">Квартальный отчёт · Q1 2026</p>
+      <h2 class="text-6xl md:text-8xl font-bold tracking-tight mb-6">Заголовок</h2>
+      <p class="text-2xl md:text-3xl text-slate-300 max-w-2xl">Подзаголовок слайда</p>
+    </section>
+
+    <section id="template-metrics" data-template="metrics" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+      <p class="text-xs uppercase tracking-widest text-lime-400 mb-8">Шаблон: три цифры</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-16">Заголовок блока</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10 text-center">
+          <p class="text-5xl md:text-6xl font-bold text-lime-400">000</p>
+          <p class="mt-4 text-xl text-slate-400">Подпись</p>
+        </div>
+        <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10 text-center">
+          <p class="text-5xl md:text-6xl font-bold text-lime-400">000</p>
+          <p class="mt-4 text-xl text-slate-400">Подпись</p>
+        </div>
+        <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10 text-center">
+          <p class="text-5xl md:text-6xl font-bold text-lime-400">000</p>
+          <p class="mt-4 text-xl text-slate-400">Подпись</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="template-columns" data-template="columns" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+      <p class="text-xs uppercase tracking-widest text-lime-400 mb-8">Шаблон: две колонки</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-16">Заголовок блока</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="rounded-3xl bg-emerald-950 border border-emerald-800 p-10">
+          <h3 class="text-2xl font-bold text-emerald-400 mb-8">Левая колонка</h3>
+          <ul class="space-y-4 text-xl text-slate-200">
+            <li>Пункт один</li>
+            <li>Пункт два</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-rose-950 border border-rose-800 p-10">
+          <h3 class="text-2xl font-bold text-rose-400 mb-8">Правая колонка</h3>
+          <ul class="space-y-4 text-xl text-slate-200">
+            <li>Пункт один</li>
+            <li>Пункт два</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="template-cards" data-template="cards" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-6xl mx-auto border-t border-slate-800">
+      <p class="text-xs uppercase tracking-widest text-lime-400 mb-8">Шаблон: три карточки</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-16">Заголовок блока</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10">
+          <h3 class="text-xl font-bold text-lime-400 mb-4">Карточка 1</h3>
+          <p class="text-4xl font-bold">Текст</p>
+          <p class="mt-2 text-slate-400">Подпись</p>
+        </div>
+        <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10">
+          <h3 class="text-xl font-bold text-lime-400 mb-4">Карточка 2</h3>
+          <p class="text-4xl font-bold">Текст</p>
+          <p class="mt-2 text-slate-400">Подпись</p>
+        </div>
+        <div class="rounded-3xl bg-slate-900 border border-slate-800 p-10">
+          <h3 class="text-xl font-bold text-lime-400 mb-4">Карточка 3</h3>
+          <p class="text-4xl font-bold">Текст</p>
+          <p class="mt-2 text-slate-400">Подпись</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="template-list" data-template="list" class="min-h-screen flex flex-col justify-center px-8 py-20 max-w-4xl mx-auto border-t border-slate-800">
+      <p class="text-xs uppercase tracking-widest text-lime-400 mb-8">Шаблон: список</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-12">Заголовок блока</h2>
+      <ul class="space-y-6 text-2xl text-slate-200">
+        <li class="flex gap-4"><span class="text-lime-400">—</span> Пункт списка</li>
+        <li class="flex gap-4"><span class="text-lime-400">—</span> Пункт списка</li>
+        <li class="flex gap-4"><span class="text-lime-400">—</span> Пункт списка</li>
+      </ul>
+    </section>
+
+    <section id="template-statement" data-template="statement" class="min-h-screen flex flex-col items-center justify-center px-8 py-20 text-center border-t border-slate-800">
+      <p class="text-xs uppercase tracking-widest text-lime-400 mb-8">Шаблон: один вывод</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-12 max-w-4xl">Заголовок вопроса</h2>
+      <p class="text-2xl md:text-4xl text-slate-200 max-w-3xl leading-relaxed">
+        Главная мысль или решение, которое нужно от руководства.
+      </p>
+    </section>
+  </div>
 
 </body>
 </html>
