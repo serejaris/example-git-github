@@ -11,7 +11,7 @@
 | 3 | Продукт | Продакт-менеджер | `#slide-03` | `template-statement` | готово | Светлана | Codex |
 | 4 | Цена | Ценовик | `#slide-04` | `template-statement` | готово | Анна | Codex |
 | 5 | Фишка продукта | Инженер | `#slide-05` | `template-statement` | готово | jdiner | Codex |
-| 6 | Старт | Координатор запуска | `#slide-06` | `template-statement` | свободна | — | — |
+| 6 | Старт | Координатор запуска | `#slide-06` | `template-statement` | готово | Анна | Codex |
 | 7 | Главная цифра | Аналитик продаж | `#slide-07` | `template-statement` | готово | Александр | Codex |
 | 8 | План | Плановик | `#slide-08` | `template-statement` | свободна | — | — |
 | 9 | План vs факт | Ревизор | `#slide-09` | `template-statement` | свободна | — | — |
