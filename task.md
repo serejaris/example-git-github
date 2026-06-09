@@ -17,7 +17,7 @@
 | 9 | План vs факт | Ревизор | `#slide-09` | `template-statement` | свободна | — | — |
 | 10 | Хвалят | UX-исследователь | `#slide-10` | `template-statement` | готово | Наталья | Codex |
 | 11 | Ругают | Аналитик отзывов | `#slide-11` | `template-statement` | готово | Инна | Codex |
-| 12 | Что получилось | PR-менеджер | `#slide-12` | `template-list` | свободна | — | — |
+| 12 | Что получилось | PR-менеджер | `#slide-12` | `template-list` | готово | jdiner | Codex |
 | 13 | Что не получилось | Аудитор | `#slide-13` | `template-list` | свободна | — | — |
 | 14 | Плюсы и минусы | Медиатор | `#slide-14` | `template-columns` | готово | Михаил | CyberOS |
 | 15 | Склад | Логист | `#slide-15` | `template-statement` | свободна | — | — |
