@@ -12,7 +12,7 @@
 | 4 | Цена | Ценовик | `#slide-04` | `template-statement` | свободна | — | — |
 | 5 | Фишка продукта | Инженер | `#slide-05` | `template-statement` | свободна | — | — |
 | 6 | Старт | Координатор запуска | `#slide-06` | `template-statement` | свободна | — | — |
-| 7 | Главная цифра | Аналитик продаж | `#slide-07` | `template-statement` | свободна | — | — |
+| 7 | Главная цифра | Аналитик продаж | `#slide-07` | `template-statement` | готово | Андрей Балабанов | Claude |
 | 8 | План | Плановик | `#slide-08` | `template-statement` | свободна | — | — |
 | 9 | План vs факт | Ревизор | `#slide-09` | `template-statement` | свободна | — | — |
 | 10 | Хвалят | UX-исследователь | `#slide-10` | `template-statement` | свободна | — | — |
