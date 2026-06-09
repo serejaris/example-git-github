@@ -13,7 +13,7 @@
 | 5 | Фишка продукта | Инженер | `#slide-05` | `template-statement` | готово | jdiner | Codex |
 | 6 | Старт | Координатор запуска | `#slide-06` | `template-statement` | свободна | — | — |
 | 7 | Главная цифра | Аналитик продаж | `#slide-07` | `template-statement` | готово | Александр | Codex |
-| 8 | План | Плановик | `#slide-08` | `template-statement` | свободна | — | — |
+| 8 | План | Плановик | `#slide-08` | `template-statement` | в работе | Азамат Садырбаев | Codex |
 | 9 | План vs факт | Ревизор | `#slide-09` | `template-statement` | свободна | — | — |
 | 10 | Хвалят | UX-исследователь | `#slide-10` | `template-statement` | готово | Наталья | Codex |
 | 11 | Ругают | Аналитик отзывов | `#slide-11` | `template-statement` | готово | Инна | Codex |
